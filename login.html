@@ -1,1 +1,17 @@
-angularApp
+<div class="login">
+  <h1>Sign In to Demo App</h1> User Name:
+  <input type="text" class="inputfield" ng-model="userName" ng-change="hasError=false;" />
+  <br> Password:&nbsp;&nbsp;
+  <input type="password" class="inputfield" ng-model="userPass" ng-change="hasError=false;" />
+  <br>
+  <button class="loginBtn" ng-click="loginClick($event, this)">Login In</button>
+  <br>
+  <br>
+  <span style="color:green;" ng-show="isLoading"> Verifying Pls Wait...</span>
+  <div ng-show="hasError" style="color:red;">
+    <ul>
+      <li>Please Enter User Name</li>
+      <li>Please Enter Password </li>
+    </ul>
+  </div>
+</div>
