@@ -1,1 +1,104 @@
-angularApp
+{
+  "records": [{
+    "empName": "Rakesh",
+    "empId":"123456",
+    "bloodGrp": "A+",
+    "managerName":"Amaranath"
+  },
+  {
+    "empName": "Rakesh",
+    "empId":"123456",
+    "bloodGrp": "A+",
+    "managerName":"Amaranath"
+  },
+  {
+    "empName": "Rakesh",
+    "empId":"123456",
+    "bloodGrp": "A+",
+    "managerName":"Amaranath"
+  },
+  {
+    "empName": "Rakesh",
+    "empId":"123456",
+    "bloodGrp": "A+",
+    "managerName":"Amaranath"
+  },
+  {
+    "empName": "Rakesh",
+    "empId":"123456",
+    "bloodGrp": "A+",
+    "managerName":"Amaranath"
+  },
+  {
+    "empName": "Rakesh",
+    "empId":"123456",
+    "bloodGrp": "A+",
+    "managerName":"Amaranath"
+  },
+  {
+    "empName": "Rakesh",
+    "empId":"123456",
+    "bloodGrp": "A+",
+    "managerName":"Amaranath"
+  },
+   {
+    "empName": "Rakesh",
+    "empId":"123456",
+    "bloodGrp": "A+",
+    "managerName":"Amaranath"
+  },
+  {
+    "empName": "Rakesh",
+    "empId":"123456",
+    "bloodGrp": "A+",
+    "managerName":"Amaranath"
+  },
+  {
+    "empName": "Rakesh",
+    "empId":"123456",
+    "bloodGrp": "A+",
+    "managerName":"Amaranath"
+  },
+  {
+    "empName": "Rakesh",
+    "empId":"123456",
+    "bloodGrp": "A+",
+    "managerName":"Amaranath"
+  },
+  {
+    "empName": "Rakesh",
+    "empId":"123456",
+    "bloodGrp": "A+",
+    "managerName":"Amaranath"
+  }, {
+    "empName": "Rakesh",
+    "empId":"123456",
+    "bloodGrp": "A+",
+    "managerName":"Amaranath"
+  },
+  {
+    "empName": "Rakesh",
+    "empId":"123456",
+    "bloodGrp": "A+",
+    "managerName":"Amaranath"
+  },
+  {
+    "empName": "Rakesh",
+    "empId":"123456",
+    "bloodGrp": "A+",
+    "managerName":"Amaranath"
+  },
+  {
+    "empName": "Rakesh",
+    "empId":"123456",
+    "bloodGrp": "A+",
+    "managerName":"Amaranath"
+  },
+  {
+    "empName": "Rakesh",
+    "empId":"123456",
+    "bloodGrp": "A+",
+    "managerName":"Amaranath"
+  }
+    ]
+}
