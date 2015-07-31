@@ -1,1 +1,32 @@
-angularApp
+<h1> Welcome {{userName}} !!</h1>
+<div class="">
+  <table>
+    <thead>
+      <tr>
+        <th>EmployeeId</th>
+        <th>Name</th>
+        <th>Blood Group</th>
+        <th>Manager Name</th>
+      </tr>
+    </thead>
+  </table>
+  <div class="infinitegrid" infinte-scroll="loadMoreData()">
+    <table>
+      <tbody>
+        <tr ng-repeat="rec in employees">
+          <td>{{rec.empId}}</td>
+          <td>{{rec.empName}}</td>
+          <td>{{rec.bloodGrp}}</td>
+          <td>{{rec.managerName}}</td>
+          <td><a href="demoApp/emp/{{rec.empId}}">Edit</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <span ng-show="isLoading" style="color:green;">
+          Loading.....
+    </span>
+     <span ng-show="employees.length===totalCount" style="color:red;">
+          No More Data Available
+    </span>
+  </div>
+</div>
