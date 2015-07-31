@@ -1,1 +1,13 @@
-angularApp
+<h1> Edit Emp Details </h1>
+<form>
+  <div>
+
+    Emp Id:
+    <input type="text" class="inputfield" ng-model="formData.empId" /><br> Emp Name:
+    <input type="text" class="inputfield" ng-model="formData.empName" /> <br>Blood Group:
+    <input type="text" class="inputfield" ng-model="formData.bloodGrp" /> <br>Manager Name:
+    <input type="text" class="inputfield" ng-model="formData.managerName" /><br>
+    <button class="loginBtn" ng-click="saveBtn($event)">Update</button>
+    <span style="color:green;" ng-show="isUpdating"> Updating Pls Wait...</span>
+  </div>
+</form>
